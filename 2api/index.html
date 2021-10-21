@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container" id="container">
+        <h1>Юзеры гитхаба</h1>
+        <label for="userId">ID прогера</label>
+        <input type="text" id="userId" placeholder="LenaYork">
+        <p class="hint">Вводите айдишку, а не имя/фамилию юзера!</p>
+        <button id="getUserId">Получить информацию</button>
+        <p id="resultMessage"></p>
+        <section class="userInfo hidden" id="userInfo">
+            <img src="" alt="аватарка пользователя" id="userPic">
+            <p>Имя пользователя: <span id="userName" class="hiddenInfo"></span></p>
+            <p>Контора: <span id="userCompany" class="hiddenInfo"></span></p>
+            <p>Страна: <span id="userLocation" class="hiddenInfo"></span></p>
+            <p>Email: <span id="userEmail" class="hiddenInfo"></span></p>
+            <p>Описание: <span id="userBio" class="hiddenInfo"></span></p>
+            <p>Кол-во открытых репов: <span id="userRepos" class="hiddenInfo"></span></p>
+            <p>Кол-во подписчиков: <span id="userFollowers" class="hiddenInfo"></span></p>
+            <p>Кол-во подписок: <span id="userFollowing" class="hiddenInfo"></span></p>
+            <p>Дата создания: <span id="userCreated" class="hiddenInfo"></span></p>
+            <p>Изменено: <span id="userChanged" class="hiddenInfo"></span></p>
+
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

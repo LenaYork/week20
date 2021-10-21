@@ -1,0 +1,63 @@
+.container {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid silver;
+    border-radius: 15px;
+    color: #837f7f;
+}
+
+.hint {
+    font-style: italic;
+    color: silver;
+    font-size: smaller;
+}
+
+button {
+    border: 1px solid grey;
+    border-radius: 15px;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #9b9b9b;
+}
+
+.userInfo {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.userInfo img {
+    width: 35px;
+}
+
+.hiddenInfo {
+    font-style: italic;
+    font-weight: bold;
+    color: #0b5818;
+}
+
+.userInfo p {
+    margin: 2px;
+}
+
+
+.success {
+    font-style: italic;
+    font-weight: bold;
+    color: #0d4e18;
+}
+
+.failure {
+    font-style: italic;
+    font-weight: bold;
+    color: #b90e0e;
+}
+
+.hidden {
+    display: none;
+}
